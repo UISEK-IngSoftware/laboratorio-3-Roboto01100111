@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Currículum de Guillermo Zurita</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <!-- Video de fondo borroso -->
+  <div class="video-bg">
+    <video autoplay muted loop playsinline>
+      <source src="videofondo.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <!-- Contenido del CV -->
+  <main class="container">
+    <header>
+      <h1>Guillermo Zurita</h1>
+      <p>Desarrollador en formación | Ingeniería en Software</p>
+      <div class="separador"></div>
+    </header>
+
+    <div class="foto">
+      <img src="tu-foto.jpg.png" alt="Foto de Guillermo Zurita" />
+    </div>
+
+    <section>
+      <h2>Perfil</h2>
+      <p>
+        Apasionado por la programación y el desarrollo web. En constante
+        aprendizaje y con bases sólidas en lenguajes de programación,
+        frameworks y control de versiones.
+      </p>
+    </section>
+
+    <section>
+      <h2 onclick="toggleSection('habilidades')">Lenguajes y Herramientas</h2>
+      <ul id="habilidades" class="skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>Django</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 onclick="toggleSection('educacion')">Educación</h2>
+      <p id="educacion">UISEK – Ingeniería en Software (2024 - presente)</p>
+    </section>
+
+    <section>
+      <h2>Contacto</h2>
+      <p>📧 <a href="mailto:guillermo.zurita@uisek.edu.ec">guillermo.zurita@uisek.edu.ec</a></p>
+      <p>🔗 <a href="https://linkedin.com/in/GuillermoZurita" target="_blank">linkedin.com/in/GuillermoZurita</a></p>
+    </section>
+  </main>
+</body>
+</html>
